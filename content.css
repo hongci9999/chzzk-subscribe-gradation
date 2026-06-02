@@ -1,0 +1,13 @@
+.chzzk-gradient-name {
+  position: relative;
+  display: inline-block;
+}
+
+.chzzk-gradient-name::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #00FFA3, transparent);
+  mix-blend-mode: color;
+  pointer-events: none;
+}
