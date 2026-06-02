@@ -6,7 +6,7 @@
 
 팔로잉 목록, 라이브 카드 등 채널 이름이 표시되는 모든 곳에서 구독 채널을 한눈에 구분할 수 있습니다.
 
-![사이드바](assets/screenshot-sidebar.png) ![팔로잉 채널 라이브](assets/screenshot-live.png)
+![팔로잉 채널 라이브](assets/screenshot-live.png)
 
 ## 설치 방법
 
@@ -24,7 +24,7 @@
 
 ## 권한
 
-| 권한 | 용도 |
-|------|------|
-| `storage` | 구독 채널 목록 로컬 저장 |
-| `api.chzzk.naver.com` | 구독 채널 목록 조회 |
+| 권한                  | 용도                     |
+| --------------------- | ------------------------ |
+| `storage`             | 구독 채널 목록 로컬 저장 |
+| `api.chzzk.naver.com` | 구독 채널 목록 조회      |
