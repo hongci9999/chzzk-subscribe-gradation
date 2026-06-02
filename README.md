@@ -6,6 +6,8 @@
 
 팔로잉 목록, 라이브 카드 등 채널 이름이 표시되는 모든 곳에서 구독 채널을 한눈에 구분할 수 있습니다.
 
+![사이드바](assets/screenshot-sidebar.png) ![팔로잉 채널 라이브](assets/screenshot-live.png)
+
 ## 설치 방법
 
 1. 이 저장소를 클론하거나 ZIP으로 다운로드합니다.
