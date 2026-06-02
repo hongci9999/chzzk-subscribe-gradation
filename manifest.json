@@ -3,7 +3,7 @@
   "name": "치지직 구독채널 그라데이션",
   "version": "1.0.0",
   "description": "구독한 채널 이름에 그라데이션을 적용합니다",
-  "permissions": ["storage", "alarms"],
+  "permissions": ["storage"],
   "host_permissions": ["https://api.chzzk.naver.com/*"],
   "background": {
     "service_worker": "background.js"

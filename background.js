@@ -12,6 +12,3 @@ async function fetchSubscribedChannels() {
 
 chrome.runtime.onInstalled.addListener(fetchSubscribedChannels);
 chrome.runtime.onStartup.addListener(fetchSubscribedChannels);
-
-chrome.alarms.create('refresh', { periodInMinutes: 720 });
-chrome.alarms.onAlarm.addListener(fetchSubscribedChannels);
