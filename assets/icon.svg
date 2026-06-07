@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141517" />
+      <stop offset="100%" stop-color="#1f2124" />
+    </linearGradient>
+
+    <linearGradient id="chzzkGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFA3" />
+      <stop offset="100%" stop-color="#00B2FF" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="30%" stop-color="#FF9933" />
+      <stop offset="60%" stop-color="#00FFA3" />
+      <stop offset="100%" stop-color="#00B2FF" />
+    </linearGradient>
+
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+
+  <g filter="url(#dropShadow)">
+    <path d="M 150,160 
+             L 240,160 
+             L 190,250 
+             L 270,250 
+             L 200,360 
+             L 360,190 
+             L 280,190 
+             L 330,120 
+             Z" 
+          fill="none" 
+          stroke="url(#chzzkGrad)" 
+          stroke-width="24" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          opacity="0.9" />
+
+    <path d="M 120,400 L 392,400" 
+          stroke="url(#textGrad)" 
+          stroke-width="28" 
+          stroke-linecap="round" />
+
+    <circle cx="340" cy="400" r="22" fill="#FFFFFF" />
+    <circle cx="340" cy="400" r="14" fill="url(#chzzkGrad)" />
+    
+    <path d="M 390,130 L 400,150 L 420,160 L 400,170 L 390,190 L 380,170 L 360,160 L 380,150 Z" fill="#00FFA3" opacity="0.8"/>
+    <path d="M 110,280 L 115,290 L 125,295 L 115,300 L 110,310 L 105,300 L 95,295 L 105,290 Z" fill="#00B2FF" opacity="0.7"/>
+  </g>
+</svg>

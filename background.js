@@ -12,3 +12,7 @@ async function fetchSubscribedChannels() {
 
 chrome.runtime.onInstalled.addListener(fetchSubscribedChannels);
 chrome.runtime.onStartup.addListener(fetchSubscribedChannels);
+
+chrome.runtime.onMessage.addListener((msg) => {
+  if (msg === 'fetchSubscriptions') fetchSubscribedChannels();
+});

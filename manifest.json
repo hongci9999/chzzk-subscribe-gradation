@@ -1,8 +1,14 @@
 {
   "manifest_version": 3,
   "name": "치지직 구독채널 그라데이션",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "구독한 채널 이름에 그라데이션을 적용합니다",
+  "icons": {
+    "16": "assets/icon.png",
+    "32": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
   "permissions": ["storage"],
   "host_permissions": ["https://api.chzzk.naver.com/*"],
   "background": {

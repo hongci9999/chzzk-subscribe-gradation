@@ -14,5 +14,14 @@ chrome.storage.local.get('subscribedChannels', ({ subscribedChannels }) => {
   }
 });
 
+chrome.storage.onChanged.addListener((changes) => {
+  if (changes.subscribedChannels) {
+    subscribedNames = new Set(changes.subscribedChannels.newValue || []);
+    applyGradient();
+  }
+});
+
+chrome.runtime.sendMessage('fetchSubscriptions');
+
 const observer = new MutationObserver(applyGradient);
 observer.observe(document.body, { childList: true, subtree: true });
